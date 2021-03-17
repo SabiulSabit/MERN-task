@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+  background-color: #F9F9F9;
+  margin: 5%;
+}
+h1{
+  color: #ac3f21;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+}
+h3{
+  color: #2d767f;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+input{
+  content: "";
+  border-top:  none;
+  border-left: none;
+  border-right: none;
+  border-bottom:2px solid #2cb978;
+  border-radius: 5px;
+  width: 500px;
+}
+
+label{
+ font-weight: 700;
+}
+
+.tableDiv{
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.tableDiv Table{
+  width: 100%;
+}
+
+.btn{
+  background-color: #FC5185;
+  color: aliceblue;
+  margin: 20px;
+}
+
+.btn:hover{
+  color: #222;
+}
+.userData{
+  margin-left: 10%;
+}
